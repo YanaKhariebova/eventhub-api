@@ -105,10 +105,10 @@ passende aktuelle Dokumentation prüfen.
 - prisma/:
   Schema, Migrationen und Seed.
 
-- tests/unit/:
+- __tests__/unit/:
   Unit-Tests.
 
-- tests/integration/:
+- __tests__/integration/:
   Integrations- und API-Tests.
 
 - docs/:

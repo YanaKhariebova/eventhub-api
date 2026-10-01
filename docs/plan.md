@@ -84,8 +84,8 @@ Die Anwendung wird nach Verantwortlichkeiten gegliedert:
 - `src/schemas/`: Zod-Schemas für Body, Params und Query
 - `src/config/`: Konfiguration und zentrale Prisma-Client-Instanz
 - `prisma/`: Schema, Migrationen und wiederholbarer Kategorie-Seed
-- `tests/unit/`: Tests einzelner Geschäftsregeln
-- `tests/integration/`: API- und Datenbanktests
+- `__tests__/unit/`: Tests einzelner Geschäftsregeln
+- `__tests__/integration/`: API- und Datenbanktests
 - `docs/`: Projektplan, ERD und Endpunktdokumentation
 
 Controller bleiben auf HTTP-Aufgaben begrenzt. Geschäftsregeln und

@@ -133,13 +133,13 @@ Pagination:
 
 ## 2. Grundgerüst und Datenbank — 02.10.–04.10.
 
-- [ ] GitHub-Repository eventhub-api erstellen.
+- [x] GitHub-Repository eventhub-api erstellen.
 - [x] npm-Projekt mit ES Modules einrichten.
 - [x] Abhängigkeiten installieren.
-- [ ] Scripts für dev, start und test einrichten.
-- [ ] .gitignore und .env.example erstellen.
-- [ ] app.js und server.js trennen.
-- [ ] Ordnerstruktur erstellen.
+- [x] Scripts für dev, start und test einrichten.
+- [x] .gitignore und .env.example erstellen.
+- [x] app.js und server.js trennen.
+- [x] Ordnerstruktur erstellen.
 - [ ] GET /health implementieren.
 - [ ] PostgreSQL und Prisma einrichten.
 - [ ] Vier Modelle und Constraints implementieren.
