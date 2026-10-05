@@ -5,8 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "start": "node src/server.js",
-    "dev": "node --watch src/server.js"
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "dev": "node --env-file=.env --watch src/server.js",
+    "prisma:generate": "node --env-file-if-exists=.env node_modules/.bin/prisma generate",
+    "prisma:validate": "node --env-file-if-exists=.env node_modules/.bin/prisma validate",
+    "prisma:migrate": "node --env-file=.env node_modules/.bin/prisma migrate dev",
+    "prisma:deploy": "node --env-file-if-exists=.env node_modules/.bin/prisma migrate deploy",
+    "prisma:status": "node --env-file-if-exists=.env node_modules/.bin/prisma migrate status",
+    "prisma:seed": "node --env-file-if-exists=.env node_modules/.bin/prisma db seed",
+    "prisma:studio": "node --env-file=.env node_modules/.bin/prisma studio"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +21,7 @@
   "type": "module",
   "dependencies": {
     "@clerk/express": "^2.1.73",
-    "@prisma/client": "^7.10.0",
+    "@prisma/client": "6.19.3",
     "cors": "^2.8.6",
     "dotenv": "^18.0.4",
     "express": "^5.2.1",
@@ -25,6 +32,7 @@
   },
   "devDependencies": {
     "jest": "^30.5.2",
+    "prisma": "6.19.3",
     "supertest": "^7.3.0"
   }
 }

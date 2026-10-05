@@ -140,11 +140,11 @@ Pagination:
 - [x] .gitignore und .env.example erstellen.
 - [x] app.js und server.js trennen.
 - [x] Ordnerstruktur erstellen.
-- [ ] GET /health implementieren.
-- [ ] PostgreSQL und Prisma einrichten.
-- [ ] Vier Modelle und Constraints implementieren.
-- [ ] Migration erstellen und prüfen.
-- [ ] Wiederholbaren Kategorie-Seed schreiben.
+- [x] GET /health implementieren.
+- [x] PostgreSQL und Prisma einrichten.
+- [x] Vier Modelle und Constraints implementieren.
+- [x] Migration erstellen und prüfen.
+- [x] Wiederholbaren Kategorie-Seed schreiben.
 - [ ] Zentrale 404- und Fehlerbehandlung erstellen.
 
 ## 3. Öffentlicher Katalog — 05.10.–07.10.
