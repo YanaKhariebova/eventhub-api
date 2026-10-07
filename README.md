@@ -57,9 +57,18 @@ Server mit dem konfigurierten `PORT`.
 
 ## Tests
 
-`npm test -- --runInBand` startet Jest. Die vorhandenen Testdateien sind noch
-leer; der Testlauf schlägt deshalb derzeit fehl. Datenbank-Constraints und
-Löschverhalten müssen später gegen eine getrennte Testdatenbank geprüft werden.
+`npm test -- --runInBand` startet Jest. Die Grundgerüst-Tests prüfen `/health`,
+unbekannte Routen (404), ungültiges JSON (400), zu große JSON-Bodys (400),
+sichere interne Fehler (500) und die Fehlerweitergabe nach gesendeten Headern.
+Die gezielte Ausführung erfolgt mit:
+
+```bash
+npm test -- --runInBand __tests__/integration/app.test.js __tests__/unit/errorHandler.test.js
+```
+
+`__tests__/unit/env.test.js` ist noch leer; der vollständige Testlauf schlägt
+deshalb derzeit fehl. Datenbank-Constraints und Löschverhalten müssen später
+gegen eine getrennte Testdatenbank geprüft werden.
 
 ## Dokumentation
 

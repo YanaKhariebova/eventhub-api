@@ -145,11 +145,11 @@ Pagination:
 - [x] Vier Modelle und Constraints implementieren.
 - [x] Migration erstellen und prüfen.
 - [x] Wiederholbaren Kategorie-Seed schreiben.
-- [ ] Zentrale 404- und Fehlerbehandlung erstellen.
+- [x] Zentrale 404- und Fehlerbehandlung erstellen.
 
 ## 3. Öffentlicher Katalog — 05.10.–07.10.
 
-- [ ] GET /categories implementieren.
+- [x] GET /categories implementieren.
 - [ ] GET /events/:id implementieren.
 - [ ] GET /events implementieren.
 - [ ] Suche und Filter hinzufügen.
