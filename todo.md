@@ -150,23 +150,23 @@ Pagination:
 ## 3. Öffentlicher Katalog — 05.10.–07.10.
 
 - [x] GET /categories implementieren.
-- [ ] GET /events/:id implementieren.
-- [ ] GET /events implementieren.
-- [ ] Suche und Filter hinzufügen.
-- [ ] Pagination und stabile Sortierung hinzufügen.
-- [ ] params und query mit Zod validieren.
-- [ ] Einheitliche JSON-Antworten umsetzen.
-- [ ] Katalog mit Postman prüfen.
-- [ ] Erste automatisierte Tests schreiben.
+- [x] GET /events/:id implementieren.
+- [x] GET /events implementieren.
+- [x] Suche und Filter hinzufügen.
+- [x] Pagination und stabile Sortierung hinzufügen.
+- [x] params und query mit Zod validieren.
+- [x] Einheitliche JSON-Antworten umsetzen.
+- [x] Katalog mit Postman prüfen.
+- [x] Erste automatisierte Tests schreiben.
 
 ## 4. Clerk und geschützte Funktionen — 08.10.–11.10.
 
-- [ ] Clerk integrieren.
-- [ ] Fehlende oder ungültige Anmeldung mit JSON-401 behandeln.
-- [ ] Lokalen User anhand der verifizierten Clerk ID anlegen.
-- [ ] POST /events implementieren.
-- [ ] PATCH /events/:id implementieren.
-- [ ] DELETE /events/:id implementieren.
+- [x] Clerk integrieren.
+- [x] Fehlende oder ungültige Anmeldung mit JSON-401 behandeln.
+- [x] Lokalen User anhand der verifizierten Clerk ID anlegen.
+- [x] POST /events implementieren.
+- [x] PATCH /events/:id implementieren.
+- [x] DELETE /events/:id implementieren.
 - [ ] Besitzprüfung umsetzen.
 - [ ] Anmeldung und Abmeldung implementieren.
 - [ ] Doppelte Anmeldung mit Unique-Constraint verhindern.
